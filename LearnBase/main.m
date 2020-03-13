@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Base.h"
+#import "CopyAndMutableCopy.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+//        Base *base = [Base new];
+//        [base test];
+        CopyAndMutableCopy *instance = [CopyAndMutableCopy new];
+//        [instance test];
+//        [instance test1];
+//        [instance test2];
+        [instance test3];
     }
     return 0;
 }
